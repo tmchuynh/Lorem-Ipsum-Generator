@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Lorem Ipsum</title>
+</head>
+
+<body>
+    <section class="section-center">
+        <h3>Hipster ipsum</h3>
+        <form class="lorem-form">
+            <label for="numofpara">paragraphs:</label>
+            <div class="paraAmountNum">
+                <input type="range" min="1" value="5" id="numofsentRange" />
+                <input type="number" min="1" value="5" id="numofsent" />
+            </div>
+            <button type="submit" class="btn">generate</button>
+        </form>
+        <article class="lorem-text"></article>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="lorem.js"></script>
+</body>
+
+</html>
